@@ -66,7 +66,7 @@ export let Datos_LiNav = [
         Nombre: "Practica IF",    
         Detalle: "Practica ", 
         Url: "/Practica_IF.html",
-        Activo: falsealse
+        Activo: false
     },
     {   Id: 12,
         Nombre: "Practica CICLO",    
