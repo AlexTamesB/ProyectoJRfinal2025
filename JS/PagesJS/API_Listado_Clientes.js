@@ -1,3 +1,17 @@
-console.log('Funcionando Archivo: API_Listado_Clientes');
+console.log('Funcionando Archivo: Prectic_Listado_Clientes');
 
-const Api_Usuarios = "https://jsonplaceholder.typicode.com/users"
+
+
+
+
+
+let contenedor= document.getElementById('tbody');
+function exportToEXcel() {
+
+
+}
+
+function exportToPDF() {
+
+    
+}
