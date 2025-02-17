@@ -2,7 +2,7 @@ console.log('Funcionando Archivo: API_Listado_Clientes');
 
 const Api_Usuarios = "https://jsonplaceholder.typicode.com/users"
 
-const Api2 = "https://rickandmortyapi.com/api/character" 
+const Api2 = "https://rickandmortyapi.com/api/character";
 
 // Datos locales simulando la API
 
@@ -14,7 +14,7 @@ let contenedor = document.getElementById('tbody');
 let contenedor2 = document.getElementById('tbody'); //Crean Contenido
 let contenedor2 = document.getElementById('tbody2'); //Crean Contenido
 
-//aela Visualizar al ejecutar la pagina DOM
+
 document.addEventListener('DOMContentLoaded', () => {
     consultarDatos()
     consultarDatos2()
@@ -24,11 +24,11 @@ document.addEventListener('DOMContentLoaded', () => {
 // Consultar Datos del API mediante Fetch(AJAX) AXIOS
 function consultarDatos() {
 
-    //fetchget
-    fetch(Api_Usuarios) //1- se le indica la url de la api 
+    
+    fetch(Api_Usuarios)
 
-        .then(response => response.json()) // 2 -Conversion de datos , JSON 
-        .then(result => {           //3- Resultado  result
+        .then(response => response.json()) 
+        .then(result => {          
             // custom error
             console.log(result)
             DatosFiltrados = result

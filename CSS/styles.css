@@ -1,17 +1,20 @@
 
 :root{
-  --fondogradiante:linear-gradient(to bottom, #dd2476, #ff512f);  
-  --colorglobal:#dd2476;
-  --TextClaro: white;
+  --fondogradiante:linear-gradient(to bottom, #d40707, #000000);  
+  --colorglobal:#dbc6cf;
+  --TextClaro: rgb(255, 255, 255);
 
 }
+
+
 
 body{
     font-family: "Titillium Web", sans-serif;
+    background-color: #000000;
 }
 
 main{
-
+background-color: #4d172e;
     height: auto !important;
     height: 100%;
     min-height: 80vh;
